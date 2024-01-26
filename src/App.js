@@ -96,15 +96,10 @@ const App = () => {
           setUserId = {setUserId}/>}
         />
 
-        <Route path="/dashboard" exact element={<Pie />} 
+        <Route path="/dashboard" exact element={<Dashboard />} 
               userId = {userId}
               setUserId = {setUserId}/>
-         <Route path="/bgraph" exact element={<Bargraph />} 
-              userId = {userId}
-              setUserId = {setUserId}/>
-         <Route path="/lgraph" exact element={<Linegraph />} 
-              userId = {userId}
-              setUserId = {setUserId}/>
+         
 
         <Route path="/leaderboard" exact element={<Leaderboard 
               userId = {userId}

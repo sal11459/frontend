@@ -152,11 +152,10 @@ function BarGraph() {
   return (
     <>
       <Box sx={{ display: 'flex' }}>
-        <Sidenav />
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
           <div className="App">
             <h1>
-              Bar Chart <i className="fas fa-user"></i>
+              Bar Chart <i className="fas fa-chart-line"></i>
             </h1>
             <div className="dropdown-container">
             <label htmlFor="domainDropdown">Select Domain:</label>
